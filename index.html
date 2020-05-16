@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Eshwar N Kumar Portfolio</title>
+		<title>Eshwar N Kumar</title>
+		<link rel="icon" href="EK1.png" type="image/png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -35,7 +31,7 @@
 					<header>
 						<h2>Eshwar N Kumar</h2>
 					</header>
-					<p><strong>Full Stack Software Developer | Data Science | Hacking </strong></p>
+					<p><strong>Full Stack Software Developer | Data Science | Ethical Hacking </strong></p>
 					<p><strong> Love to Code </strong></p>
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
@@ -47,11 +43,11 @@
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>Who I Am</h2>
+						<h2>Who I Am?</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p style="text-align:justify">I'm a passionate Software Developer and a Machine Learning enthusiast. I am expertized in Java & Python and am working
+					towards bringing my ideas into reality. My areas of interest include Web Development, Maching Learning, System Design, 
+					Cloud Technologies and CyberSecurity.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -60,11 +56,11 @@
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>What I Do</h2>
+						<h2>What I Do?</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p style="text-align:justify">I currently am working as a software developer at Cisco Systems. 
+					I have worked as a Backend Python Developer for Webex Meetings Business Unit where I built chatbots and internal tools for the team. Post that, I worked as a Full Stack Java Developer for the Customer Experience Business Unit and built microservices for Customer Portal. Apart from these, I participate in hackathons, 
+				    and programming competitions. I love travelling solo and escape to far off destinations when I am free!!!!</p>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
@@ -91,9 +87,8 @@
 				<div class="content">
 					<header>
 						<h2>My Work</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+						<p style="text-align:center">One of the two major services I developed is CMR Analyzer which can analyze any webex meeting that happens across the globe and provides me the needed information about a specific meeting. The second major service I developed is User Initiated Scan microservice where I used Angular for the front end and Spring
+						Boot for the Backend to scan any vulnerabilities present in cisco devices being used by the customers. There are many more such projects I have worked on. Checkout my resume for the full list of projects and skills.</p>
 					</header>
 
 					<!-- Gallery  -->
@@ -102,20 +97,20 @@
 								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
 							</article>
 							<article class="from-right">
-								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
+								<a href="images/fulls/Robofriends2.png" class="image fit" title="Robofriends ReactJs Application"><img src="images/fulls/Robofriends1.png" title="Dynamic Search" alt="" class="image fit"/></a>
 							</article>
 							<article class="from-left">
-								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
+								<a href="images/fulls/UserInitiatedScan2.png" class="image fit" title="User Initiated Scan"><img src="images/fulls/UserInitiatedScan1.png" title="User Initiated Scan Output" alt="" class="image fit"/></a>
 							</article>
 							<article class="from-right">
 								<a href="images/fulls/CMR_Analyzer_output.png" class="image fit" title="CMR Analyzer Bot"><img src="images/thumbs/CMR_Bot.png" title="CMR Analyzer output" alt="" class="image fit"/></a>
 							</article>
-							<!-- <article class="from-left">
+							<article class="from-left">
 								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
 							</article>
 							<article class="from-right">
 								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
-							</article> -->
+							</article>
 						</div>
 				</div>
 				<a href="#contact" class="button style2 down anchored">Next</a>
@@ -129,22 +124,29 @@
 						<p>I'd be happy to work with you.</p>
 					</header>
 					<div class="box">
-						<form method="post" action="#">
+						<form method="GET" action="mailto:eshwarnk27@gmail.com" enctype="text" target="_blank">
 							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-								<div class="field"><textarea name="message" placeholder="Message" rows="4"></textarea></div>
+								<div class="field half"><label class="label" for="subject"></label><input id="subject" class="input" type="text" name="subject" for="subject" placeholder="Type The Subject"/></div>
+								<!-- <div class="field half"><input type="email" name="email" placeholder="Email" /></div> -->
+								<div class="field"><label class="label" for="body"></label><textarea name="body" class="textarea" id="body" placeholder="Type Your Message" rows="4"></textarea></div>
 							</div>
 							<ul class="actions special">
-								<li><a href="mailto:eshwarnk27@gmail.com"><input type="button" value="E-Mail Me" /></a></li>
+								<li><a href="mailto:eshwarnk27@gmail.com?"><input type="submit" value="E-Mail Me" class="button is-primary"/></a></li>
 								</ul>
+							</form>
+							<!-- <form action="mailto:eshwarnk27@gmail.com" method="GET" target="_blank">
+								    <div class="field"><label class="label" for="subject" placeholder="Type Your Subject"></label>
+        <input name="subject" id="subject" type="text" class="input" value="Type Your Subject"></div>
+    <div class="field"><label class="label" for="body"></label>
+        <textarea class="textarea" name="body" id="body">Example Email Body</textarea></div>
+    <div><input type="submit" value="Create Email" class="button is-primary"></div>
+</form> -->
 								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/eshwar-n-kumar-4613a5122/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/EshwarNK" class="icon brands fa-github"><span class="label">github</span></a></li>
-									<li><a href="https://www.facebook.com/eshwar.kumar.7547031/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://twitter.com/EshwarNKumar1" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								</ul>
-						</form>
+									<li><a href="https://www.linkedin.com/in/eshwar-n-kumar-4613a5122/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/EshwarNK" target="_blank" class="icon brands fa-github"><span class="label">github</span></a></li>
+									<li><a href="https://www.facebook.com/eshwar.kumar.7547031/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://twitter.com/EshwarNKumar1" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							</ul>
 					</div>
 				</div>
 			</section>
@@ -162,7 +164,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Eshwar 2019</li><li>Design: <a href="https://eshwarnk.github.io/">Eshwar N Kumar</a></li>
+						<li>&copy; Eshwar 2019</li><li>Design: <a href="https://eshwarnk.github.io/" target="_blank">Eshwar N Kumar</a></li>
 					</ul>
 
 			</footer>
@@ -176,6 +178,29 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- The core Firebase JS SDK is always required and must be listed first -->
+			<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+			<!-- TODO: Add SDKs for Firebase products that you want to use
+			     https://firebase.google.com/docs/web/setup#available-libraries -->
+			<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+			<script>
+			  // Your web app's Firebase configuration
+			  var firebaseConfig = {
+			    apiKey: "AIzaSyA59AkrupHJuDvOTLjyHlXEDd9e7agcLcI",
+			    authDomain: "eshwarportfolio.firebaseapp.com",
+			    databaseURL: "https://eshwarportfolio.firebaseio.com",
+			    projectId: "eshwarportfolio",
+			    storageBucket: "eshwarportfolio.appspot.com",
+			    messagingSenderId: "913477434931",
+			    appId: "1:913477434931:web:820113c82bfd55b9bced46",
+			    measurementId: "G-8CNQ4ZKCZL"
+			  };
+			  // Initialize Firebase
+			  firebase.initializeApp(firebaseConfig);
+			  firebase.analytics();
+			</script>
 
 	</body>
 </html>

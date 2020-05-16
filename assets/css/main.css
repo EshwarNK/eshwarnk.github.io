@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -513,9 +507,9 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: "Source Sans Pro", "sans-serif";
 		font-weight: 300;
-		font-size: 18pt;
+		font-size: 20pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: black;
 		letter-spacing: 0.025em;
 	}
 
@@ -572,8 +566,8 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2.25em;
-		line-height: 1.25em;
+		font-size: 3.0em;
+		line-height: 1.5em;
 		letter-spacing: -0.05em;
 	}
 
@@ -586,7 +580,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 900;
+		font-weight: 1100;
 		color: inherit;
 	}
 
@@ -812,7 +806,7 @@ input, select, textarea {
 			}
 
 				form > .fields > .field.half {
-					width: calc(50% - 0.75em);
+					width: calc(100% - 1.5em);
 				}
 
 				form > .fields > .field.third {
@@ -902,7 +896,7 @@ input, select, textarea {
 	}
 
 	textarea {
-		min-height: 8em;
+		min-height: 9em;
 	}
 
 	::-moz-focus-inner {
@@ -2046,11 +2040,11 @@ input, select, textarea {
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 2em 0 6em 0;
 		}
 
 			.main.style3 .content > header {
-				margin-bottom: 2em;
+				margin-bottom: 1em;
 			}
 
 			.main.style3.primary {
@@ -2255,29 +2249,31 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-image: url("images/overlay.png"), url("../../images/macbook-open.jpg");
+		background-size:100% 100%;
+		background-attachment: auto, auto;
+		background-position: right top, center;
+		background-blend-mode: multiply;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("images/overlay.png"), url("../../images/Robot.jpg");
+		background-size:100% 100%;
+		background-attachment: auto, auto;
+		background-position: right top, center;
+		background-blend-mode: multiply;
 	}
 
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("images/overlay.png"), url("../../images/serenity.jpg");
+		background-size:100% 100%;
+		background-attachment: auto, auto;
+		background-position: right top, center;
+		background-blend-mode: multiply;
 	}
 
 	#resume {
@@ -2291,6 +2287,11 @@ input, select, textarea {
 /* Contact */
 
 	#contact {
+		background: url("images/overlay.png"), url("../../images/scenary.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
 		overflow: hidden;
 		padding-bottom: 0;
 	}
@@ -2308,10 +2309,10 @@ input, select, textarea {
 		}
 
 		#contact.inactive .box {
-			-moz-transform: translateY(100%);
-			-webkit-transform: translateY(100%);
-			-ms-transform: translateY(100%);
-			transform: translateY(100%);
+			-moz-transform: translateY(0%);
+			-webkit-transform: translateY(0%);
+			-ms-transform: translateY(0%);
+			transform: translateY(0%);
 		}
 
 		@media screen and (max-width: 736px) {
